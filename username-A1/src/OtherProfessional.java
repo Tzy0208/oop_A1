@@ -1,3 +1,3 @@
-public class OtherProfessional {
+public class OtherProfessional extends HealthProfessional{
 
 }

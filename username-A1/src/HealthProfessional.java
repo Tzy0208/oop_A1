@@ -1,21 +1,21 @@
 public class HealthProfessional {
         String name;
         int id;
-        String department;
+        String type;
        public  HealthProfessional(){
            this.name=" ";
            this.id=0;
-           this.department=" ";
+           this.type=" ";
 
        }
-       public HealthProfessional(int id,String name,String department){
+       public HealthProfessional(int id,String name,String type){
               this.name=name;
               this.id=id;
-              this.department=department;
+              this.type=type;
           }  
        public void printinfo(){
               System.out.println("医生的名字"+":"+this.name);
               System.out.println("医生的id"+":"+this.id);
-              System.out.println("医生的部门"+":"+this.department);
+              System.out.println("医生类型"+":"+this.type);
        }
 }
