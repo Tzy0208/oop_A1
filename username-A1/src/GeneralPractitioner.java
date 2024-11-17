@@ -6,14 +6,13 @@ public class GeneralPractitioner extends HealthProfessional{
         this.workLocation = "";
     }
 
-    public GeneralPractitioner(int ID, String name, String workLocation,String type) {
-        super(ID, name,type); 
+    public GeneralPractitioner(int id, String name, String workLocation,String type) {
+        super(id, name,type); 
         this.workLocation = workLocation;
     }
 
    
-    public void printDetails() {
-         
+    public void printDetailsinfo() {
         System.out.println("WorkLocation: " + this.workLocation);
     }
 }
