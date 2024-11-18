@@ -1,5 +1,7 @@
 
 
+
+
 public class AssignmentOne {
      public static void main(String[] args){
         GeneralPractitioner gp1= new GeneralPractitioner(1,"ZhuYufan","generalPractitioner","china");
@@ -12,5 +14,6 @@ public class AssignmentOne {
         gp3.printDetailsinfo();
         sl1.printDetailsinfo();
         sl2.printDetailsinfo();
+        System.out.println(gp1.name);
      }
 }
