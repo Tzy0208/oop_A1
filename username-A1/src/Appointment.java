@@ -26,4 +26,7 @@ public class Appointment {
         System.out.println("病人选择的医生是"+":"+this.selectDoctor);
         System.out.println("病人选择的时间是"+":"+this.selecttime);
     }
+    
+
+    }
 }
