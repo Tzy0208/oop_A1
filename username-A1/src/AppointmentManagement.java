@@ -23,6 +23,7 @@ public class AppointmentManagement {
         else {
             for(Appointment appointment : appointments){
                 appointment.printAppinfo();
+                System.out.println("------------------------------");
             }
         }
     }
@@ -33,11 +34,11 @@ public class AppointmentManagement {
                 appointments.remove(i);
                 System.out.println("已取消手机号为：" + phonenumber + "的预约");
                 return; // 取消后退出方法
-            }else{
+            }
+            else{
                 System.out.println("未找到改手机号的预约");
             }
         }
-        System.out.println("------------------------------");
     }
     
 }

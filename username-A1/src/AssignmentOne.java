@@ -17,11 +17,19 @@ public class AssignmentOne {
         System.out.println("------------------------------");
         sl2.printDetailsinfo();
         System.out.println("------------------------------");
-        
+        //Part 5 – Collection of appointments
         AppointmentManagement applist=new AppointmentManagement();
-          applist.createAppointment("YanYihui",1323312, gp1.name, "8:00");
+          applist.createAppointment("YanYihui",1323312, gp1.name, "08:00");
+          applist.createAppointment("YanHa", 12345, gp2.name, "10:00");
+          applist.createAppointment("TaoYu", 34567, sl1.name, "15:00");
+          applist.createAppointment("GuoHua", 6789, sl2.name, "20:30");
+          System.out.println("Existing Appointments:");
+          applist.printExistingAppointments();
+          applist.cancelBooking(12345);
+          System.out.println("The updated appointment:");
+          applist.printExistingAppointments();
      }
-      //Part 5 – Collection of appointments
+      
         
       
 }
