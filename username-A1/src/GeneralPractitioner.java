@@ -15,6 +15,7 @@ public class GeneralPractitioner extends HealthProfessional{
     public void printDetailsinfo() {
         super.printinfo();
         System.out.println("WorkLocation: " + this.workLocation);
+        System.out.println("------------------------------");
     }
 }
 

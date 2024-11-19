@@ -8,15 +8,10 @@ public class AssignmentOne {
         Specialists sl1=new Specialists(4,"ChiGaoyang","Clinical medicine","specialist");
         Specialists sl2=new Specialists(5,"XuJun","stomatology","specialist");
         gp1.printDetailsinfo();
-        System.out.println("------------------------------");
         gp2.printDetailsinfo();
-        System.out.println("------------------------------");
         gp3.printDetailsinfo();
-        System.out.println("------------------------------");
         sl1.printDetailsinfo();
-        System.out.println("------------------------------");
         sl2.printDetailsinfo();
-        System.out.println("------------------------------");
         //Part 5 – Collection of appointments
         AppointmentManagement applist=new AppointmentManagement();
           applist.createAppointment("YanYihui",1323312, gp1.name, "08:00");

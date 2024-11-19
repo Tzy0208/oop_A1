@@ -17,5 +17,6 @@ public class HealthProfessional {
               System.out.println("Doctor's name"+":"+this.name);
               System.out.println("Doctor's id"+":"+this.id);
               System.out.println("Type of doctor"+":"+this.type);
+              System.out.println("------------------------------");
        }
 }
