@@ -20,6 +20,10 @@ public class Appointment {
          this.selectDoctor=selectDoctor;
          this.time=time;
     }
+    public int getPhonenumber() {
+        return phonenumber;
+    }
+
     public void printAppinfo(){
         System.out.println("病人的的名字是"+":"+this.ptname);
         System.out.println("病人的的电话号码是"+":"+this.phonenumber);
