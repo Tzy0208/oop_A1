@@ -1,6 +1,6 @@
 public class GeneralPractitioner extends HealthProfessional{
     public  String workLocation;
-
+//First inherit, then initialize
     public GeneralPractitioner() {
         super(); 
         this.workLocation = "";
@@ -11,7 +11,7 @@ public class GeneralPractitioner extends HealthProfessional{
         this.workLocation = workLocation;
     }
 
-   
+   //Output information
     public void printDetailsinfo() {
         super.printinfo();
         System.out.println("WorkLocation: " + this.workLocation);

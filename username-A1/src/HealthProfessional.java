@@ -1,3 +1,4 @@
+//initialize
 public class HealthProfessional {
         String name;
         int id;
@@ -12,11 +13,12 @@ public class HealthProfessional {
               this.name=name;
               this.id=id;
               this.type=type;
-          }  
+          } 
+       //exportation
        public void printinfo(){
               System.out.println("Doctor's name"+":"+this.name);
               System.out.println("Doctor's id"+":"+this.id);
               System.out.println("Type of doctor"+":"+this.type);
-              System.out.println("------------------------------");
+              
        }
 }

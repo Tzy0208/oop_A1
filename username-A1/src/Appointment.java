@@ -1,5 +1,5 @@
 
-
+//Initialize instance
 public class Appointment {
     String ptname;
     int phonenumber;
@@ -12,17 +12,18 @@ public class Appointment {
         this.selectDoctor=" ";
         this.time="0";
     }
-
+//Accepted parameter
     public Appointment(String ptname,int phonenumber, String selectDoctor,String time){
          this.ptname = ptname;
          this.phonenumber=phonenumber;
          this.selectDoctor=selectDoctor;
          this.time=time;
     }
+    //This encapsulation enables cancelBooking in AppointmentManagement to use phonenumber values
     public int getPhonenumber() {
         return phonenumber;
     }
-
+//Output information
     public void printAppinfo(){
         System.out.println("The patient's name is"+":"+this.ptname);
         System.out.println("The patient's phone number is"+":"+this.phonenumber);
