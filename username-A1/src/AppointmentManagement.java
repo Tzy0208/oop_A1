@@ -1,5 +1,4 @@
 
-import java.time.LocalTime;
 import java.util.ArrayList;
 
 public class AppointmentManagement {
@@ -7,7 +6,7 @@ public class AppointmentManagement {
     public AppointmentManagement(){
         appointments=new ArrayList<>();
     }
-    public void createAppointment(String ptname,int  phonenumber,String selectDoctor,LocalTime time){
+    public void createAppointment(String ptname, int phonenumber, String selectDoctor, String time){
          if (ptname==null & phonenumber== 0 & selectDoctor==null & time==null){
              System.out.println("没满足条件,无法创建appointment");
          }

@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 
 public class AssignmentOne {
    // Part 3 – Using classes and objects
@@ -19,9 +17,11 @@ public class AssignmentOne {
         System.out.println("------------------------------");
         sl2.printDetailsinfo();
         System.out.println("------------------------------");
-        System.out.println(gp1.name);
+        
+        AppointmentManagement applist=new AppointmentManagement();
+          applist.createAppointment("YanYihui",1323312, gp1.name, "8:00");
      }
       //Part 5 – Collection of appointments
-        public void createAppointment(){
+        
       
 }

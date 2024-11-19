@@ -1,20 +1,19 @@
 
-import java.time.LocalTime;
 
 public class Appointment {
     String ptname;
     int phonenumber;
     String selectDoctor;
-    LocalTime time;
+    String time;
 
     public  Appointment(){
         this.ptname=" ";
         this.phonenumber=0;
         this.selectDoctor=" ";
-        this.time=LocalTime.of(0,0);
+        this.time="0";
     }
 
-    public Appointment(String ptname,int phonenumber, String selectDoctor,LocalTime time){
+    public Appointment(String ptname,int phonenumber, String selectDoctor,String time){
          this.ptname = ptname;
          this.phonenumber=phonenumber;
          this.selectDoctor=selectDoctor;
