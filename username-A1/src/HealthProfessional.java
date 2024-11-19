@@ -14,8 +14,8 @@ public class HealthProfessional {
               this.type=type;
           }  
        public void printinfo(){
-              System.out.println("医生的名字"+":"+this.name);
-              System.out.println("医生的id"+":"+this.id);
-              System.out.println("医生类型"+":"+this.type);
+              System.out.println("Doctor's name"+":"+this.name);
+              System.out.println("Doctor's id"+":"+this.id);
+              System.out.println("Type of doctor"+":"+this.type);
        }
 }

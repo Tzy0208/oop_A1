@@ -8,7 +8,7 @@ public class AppointmentManagement {
     }
     public void createAppointment(String ptname, int phonenumber, String selectDoctor, String time){
          if (ptname==null & phonenumber== 0 & selectDoctor==null & time==null){
-             System.out.println("没满足条件,无法创建appointment");
+             System.out.println("The condition was not met and the appointment could not be created");
          }
          else{
             Appointment appointment=new Appointment(ptname,phonenumber,selectDoctor,time);
@@ -18,7 +18,7 @@ public class AppointmentManagement {
     }
     public void printExistingAppointments(){
         if(appointments.isEmpty()){
-            System.out.println("没有appointment");
+            System.out.println("No appointment");
         }
         else {
             for(Appointment appointment : appointments){
@@ -32,11 +32,11 @@ public class AppointmentManagement {
             if (appointments.get(i).getPhonenumber()==(phonenumber)) {
                 // 如果找到匹配项，从列表中移除预约
                 appointments.remove(i);
-                System.out.println("已取消手机号为：" + phonenumber + "的预约");
+                System.out.println("Cancelled phone number:" + phonenumber + "appointment");
                 return; // 取消后退出方法
             }
             else{
-                System.out.println("未找到改手机号的预约");
+                System.out.println("No reservation found for this phone number");
             }
         }
     }

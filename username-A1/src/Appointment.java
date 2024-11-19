@@ -24,10 +24,10 @@ public class Appointment {
     }
 
     public void printAppinfo(){
-        System.out.println("病人的的名字是"+":"+this.ptname);
-        System.out.println("病人的的电话号码是"+":"+this.phonenumber);
-        System.out.println("病人选择的医生是"+":"+this.selectDoctor);
-        System.out.println("病人选择的时间是"+":"+this.time);
+        System.out.println("The patient's name is"+":"+this.ptname);
+        System.out.println("The patient's phone number is"+":"+this.phonenumber);
+        System.out.println("The patient's choice of doctor is"+":"+this.selectDoctor);
+        System.out.println("The time the patient chooses is"+":"+this.time);
     }
     
 

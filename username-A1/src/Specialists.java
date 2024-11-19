@@ -10,6 +10,6 @@ public class Specialists extends HealthProfessional{
     }
     public void printDetailsinfo(){
         super.printinfo();
-        System.out.println("医生的专业领域是"+":"+this.SpecialtyArea);
+        System.out.println("The doctor's area of expertise is"+":"+this.SpecialtyArea);
     }
 }
