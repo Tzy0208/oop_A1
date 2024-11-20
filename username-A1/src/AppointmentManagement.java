@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 
 public class AppointmentManagement {
-    //Tells the compiler ArrayList to store an object of type Appointment.
+    //Tells the compiler ArrayList to store an object of class Appointment.
     public ArrayList<Appointment> appointments;
     public AppointmentManagement(){
         //create new arraylist
